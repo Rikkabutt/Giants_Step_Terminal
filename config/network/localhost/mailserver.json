@@ -22,6 +22,11 @@
         "to": ["admin"],
         "title": "wtf are you kidding me?",
         "body": "Are you kidding me? Why don't you change your password?  The system is entirely compromised until you correct it.  You're the sysadmin, if you're this dumb the corporation is at risk."
+    },
+    {
+        "from": "Arthur@dirtcheapstellarnet.sns",
+        "to": ["CSBH", "a"],
+        "title": "New Assignment: Zetaris Prime",
+        "body": "Hey Lorelei.  I hope this message finds you well. We've got a new one on the table. We've received word that Vandal Cleaver, our target, has fled to Zentaris Prime.  I need you to gear up and head out there ASAP.  Best regards, Arthur Kilpatrick."
     }
-    
 ]
