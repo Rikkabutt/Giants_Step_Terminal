@@ -18,15 +18,15 @@
         "body": "Looking for that lazy ass ex-husband who's late on his alimony payments? How about that jerk who knocked you up? Look no further! With Arthur Kilpatrick's Amazing Krime-Puter, you can find almost anyone with a record, and these days that's just about everyone! So come on down to Arthur Kilpatrick's Bail Bonds! If you've got the dead beat, we've got the technology to find him!"
     },
     {
+        "from": "Arthur@dirtcheapstellarnet.sns",
+        "to": ["CSBH", "a"],
+        "title": "New Assignment: Zetaris Prime",
+        "body": "Hey Lorelei.  I hope this message finds you well. We've got a new one on the table. We've received word that Vandal Cleaver, our target, has fled to Zentaris Prime.  I need you to gear up and head out there ASAP. Time is of the essence, and we can't afford to let this one slip through our fingers. The details of the assignment, including the target's last known whereabouts and any additional information we have, are attached to this message. Best regards, Arthur Kilpatrick."
+    },
+    {
         "from": "Mike",
         "to": ["admin"],
         "title": "wtf are you kidding me?",
         "body": "Are you kidding me? Why don't you change your password?  The system is entirely compromised until you correct it.  You're the sysadmin, if you're this dumb the corporation is at risk."
-    },
-    {
-        "from": "Arthur@dirtcheapstellarnet.sns",
-        "to": ["CSBH", "a"],
-        "title": "New Assignment: Zetaris Prime",
-        "body": "Hey Lorelei.  I hope this message finds you well. We've got a new one on the table. We've received word that Vandal Cleaver, our target, has fled to Zentaris Prime.  I need you to gear up and head out there ASAP.  Best regards, Arthur Kilpatrick."
     }
 ]
