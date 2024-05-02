@@ -37,7 +37,8 @@
     "identify": {},
      "analyze": {
         "protection": ["admin","CSBH"],
-        "delayed": 2000,
+        "clear": true,
+         "delayed": 2000,
         "message": [
             "Ship Name: Giant's Step",
             "Date: 03/09/8445",
