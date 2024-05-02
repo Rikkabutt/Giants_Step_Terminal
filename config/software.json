@@ -35,10 +35,15 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
-     "analyze": {
-        "protection": ["admin","CSBH"],
+    "Ship Map": {
+        "Message": [
+            "<img src='https://i.imgur.com/EwTsUhT.jpg'style='width: 10rem'>"
+        ]
+    },
+    "analyze": {
+        "protection": ["admin", "CSBH"],
         "clear": true,
-         "delayed": 2000,
+        "delayed": 2000,
         "message": [
             "Ship Name: Giant's Step",
             "Date: 03/09/8445",
@@ -118,5 +123,3 @@
         ]
     }
 }
-            
-            
