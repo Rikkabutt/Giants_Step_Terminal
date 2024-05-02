@@ -22,11 +22,6 @@
         "to": ["admin"],
         "title": "wtf are you kidding me?",
         "body": "Are you kidding me? Why don't you change your password?  The system is entirely compromised until you correct it.  You're the sysadmin, if you're this dumb the corporation is at risk."
-    },
-    { 
-        "from": "Hung Low@trojanbotnet.srs",
-        "to": ["CSBH"],
-        "title": "DANG! It's big you know!!!111"
-        "body":"PENIS ENLARGEMENT! Watch the girls come running! Call today! 1-800-555-STICK!"
     }
+
 ]
