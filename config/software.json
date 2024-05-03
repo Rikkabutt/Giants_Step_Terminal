@@ -34,6 +34,7 @@
         "protection":["admin","CSBH"],
         "clear":true,
         "message":[
+            "<img src=\"https://i.imgur.com/ZIxOhA1.png\">",
             "Copyright (c) OrionCorp Systems",
             "BIOS Revision 8.9.9",
             "Firmware Version: BIOS 8.9.9",
@@ -192,7 +193,7 @@
         ]
     },
             
-     "analyze": {
+     "sysdiag": {
         "protection": ["admin", "CSBH"],
         "clear": true,
         "delayed": 2000,
