@@ -29,8 +29,51 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
+    "Restore":{
+        "secretCommand":true,
+        "delayed":3000,
+        "clear":true,
+        "message":[
+            "<p class='desync'>Fool.</p>"
+        ]
+    },
+        "PowerOnSSCC":{
+            "Delayed":3000,
+            "protection":["admin","CSBH"],
+            "clear":true,
+            "message":[
+                "Star-Ship Central Computer - Boot Sequence",
+                "Ship Model: A-Tech INR-9448-D",
+                "Ship Class: Interstellar Prisoner Transport",
+                "Ship ID: DFT-0935",
+                "  Primary CPU: QCP Mark 3",
+                "Secondary CPU: Redundant Backup",
+                "Memory: QFM 68TB RAM",
+                "Storage Array: AldraTech SSDs",
+                "- Main Drive 1.21 Yottabytes",
+                "- Backup Drive 2.42 Yottabytes",
+                "ATech Encryption Module: Active",
+                "Navigational AI: Belladonna v3",
+                "Astrocartography Database: Stellar Map v12.5",
+                "Communication Array: Long-Range Subspace Tranceiver Array",
+                "-Long-Range Communications: EchoWave Solutions Relay",
+                "-Short-Range Communicatoins: Echowave Solutions Hyperspace Comms Array",
+                "Sensor Suite:",
+                "-Long-Range: Graviton Wave Scanner",
+                "-Short-Range: QR Array",
+                "Lifeform Detection: KelComm Biometric Scanner",
+                "Energy signature analysis: Photometric Scanner",
+                "Power Distribution: INIR Central Power Distribution Grid",
+                "Emergency Systems: Singularity Stabilizer",
+                "-Hull Integrity Field: Online",
+                "-Emergency Singularity Drive: NOT FOUND",
+                "-Life Support Systems: Nominal",
+                "Ship Status: Ready for departure."
+            ]
+        },
+                
     "hate":{
-        "protectoin":["admin","CSBH"],
+        "protection":["admin","CSBH"],
         "location":["127.0.0.1","localhost"],
         "secretCommand":true,
         "delayed":4000,
