@@ -38,9 +38,9 @@
         ]
     },
         "bootsys":{
-            "Delayed":3000,
             "protection":["admin","CSBH"],
             "clear":true,
+            "delayed":3000,
             "message":[
                 "Star-Ship Central Computer - Boot Sequence",
                 "Ship Model: A-Tech INR-9448-D",
