@@ -11,18 +11,13 @@
             "<img src=hacker.jpg class=particle data-particules=2000>"
         ]
     },
-    "cdata.exe": {
-        "protection": ["admin"],
+    "Map": {
+        "protection": ["admin","CSBH"],
         "delayed": 2000,
         "message": [
-            "Corrupting data.",
-            "Corrupting data..",
-            "Corrupting data...",
-            "0% complete",
-            "11% complete",
-            "47% complete",
-            "98% complete",
-            "System successfully corrupted!"
+            "Loading deckplan...",
+            "Displaying deckplan.",
+            "<img src=\"https://i.imgur.com/EwTsUhT.jpg\" title=\"Giant's Step Deckplan\" style=\"width: 10rem; max-width: 100%; class=glitch\">"
         ]
     },
     "target.exe": {
