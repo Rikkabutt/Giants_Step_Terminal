@@ -30,7 +30,7 @@
     "identify": {},
     "deckplan":{
         "protection":["admin","CSBH"],
-        "location":["localhost"],
+        "location":["127.0.0.1","localhost"],
         "delayed": 4000,
         "message": [ 
             "Loading deckplan...",
