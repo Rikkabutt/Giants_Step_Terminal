@@ -29,7 +29,7 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
-    "Restore":{
+    "restore":{
         "secretCommand":true,
         "delayed":3000,
         "clear":true,
