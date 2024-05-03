@@ -11,7 +11,7 @@
             "<img src=hacker.jpg class=particle data-particules=2000>"
         ]
     },
-    "Map": {
+    "deprecated": {
         "protection": ["admin","CSBH"],
         "delayed": 2000,
         "message": [
@@ -30,6 +30,17 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
+    "deckplan":{
+        "protection":["admin","CSBH"],
+        "location":["localhost"],
+        "delayed": 4000,
+        "message": [ 
+            "Loading deckplan...",
+            "Displaying deckplan.",
+             "<img src=\"https://i.imgur.com/EwTsUhT.jpg\" title=\"Giant's Step Deckplan\" style=\"width: 10rem; max-width: 100%; class=glitch\">"
+        ]
+    },
+            
      "analyze": {
         "protection": ["admin", "CSBH"],
         "clear": true,
