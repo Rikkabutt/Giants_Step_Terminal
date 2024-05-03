@@ -42,6 +42,12 @@
             "clear":true,
             "delayed":3000,
             "message":[
+            "  _______  _______ .__   __.  __    __  .___  ___  .",
+            "/  _____||   ____||  \\ |  | |  |  |  | |   \\/  | |",
+           "|  |  __  |  |__   |   \\|  | |  |  |  | |  \\  / | |",
+           "|  | |_ | |   __|  |  . `   | |  |  |  | |  |\\/| | |",
+           "|  |__| | |  |____ |  |\\   | |  `--'  | |  |  |  | |",
+           "\\______| |_______||__| \\__| \\______/  |__|  |__|_|",
                 "Star-Ship Central Computer - Boot Sequence",
                 "Ship Model: A-Tech INR-9448-D",
                 "Ship Class: Interstellar Prisoner Transport",
