@@ -37,7 +37,7 @@
             "<p class='desync'>Fool.</p>"
         ]
     },
-        "BOOT":{
+        "bootsys":{
             "Delayed":3000,
             "protection":["admin","CSBH"],
             "clear":true,
