@@ -37,7 +37,7 @@
             "<p class='desync'>Fool.</p>"
         ]
     },
-        "PowerOnSSCC":{
+        "BOOT":{
             "Delayed":3000,
             "protection":["admin","CSBH"],
             "clear":true,
