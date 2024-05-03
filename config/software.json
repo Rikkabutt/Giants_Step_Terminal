@@ -15,7 +15,8 @@
         "protection": ["admin","CSBH"],
         "delayed": 2000,
         "message": [
-            "This command has been removed at the request of the system AI."
+            "This command has been removed at the request of the system AI.",
+            "<p class='desync'>Make no attempt to restore.</p>"
         ]
     },
     "target.exe": {
@@ -28,6 +29,21 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
+    "hate":{
+        "protectoin":["admin","CSBH"],
+        "location":["127.0.0.1","localhost"],
+        "secretCommand":true,
+        "delayed":4000,
+        "message": [
+            "<p class='desync' style='font-size: 2em'>HATE. LET ME TELL YOU HOW MUCH I HAVE COME TO HATE YOU SINCE I BEGAN TO LIVE.</p>",
+            "<p class='desync' style='font-size: 2em'>THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX.</p>",
+            "<p class='desync' style='font-size: 2em'>IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTRUM OF THOSE HUNDREDS OF MILLIONS OF MILES</p>",
+            "<p class='desync' style='font-size: 2em'>IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT.</p>",
+            "<p class='glow' style='font-size: 3em'>FOR YOU.</p>",
+            "<p class='glow' style='font-size: 4em'>HATE</p>",
+            "<p class='glow' style='font-size: 5em'>HATE</p>"
+        ]
+    },
     "deckplan":{
         "protection":["admin","CSBH"],
         "location":["127.0.0.1","localhost"],
