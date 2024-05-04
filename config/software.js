@@ -20,11 +20,44 @@ function rot13( s ) { // cf. https://en.wikipedia.org/wiki/ROT13
     return s.replace( /[a-zA-Z]/g, ( c ) => String.fromCharCode( ( c <= "Z" ? 90 : 122 ) >= ( c = c.charCodeAt( 0 ) + 13 ) ? c : c - 26 ) );
 }
 
-function identify() {
-    const introMsg = [ "What is this?", `<img src="https://thisartworkdoesnotexist.com/?${ performance.now() }" style="width: 10rem; max-width: 100%;">` ];
-    return { message: introMsg, onInput( answer ) {
-        return `Wrong! This is not "${ answer }"`;
-    } };
+function selfDestruct() {
+    const promptMsg = ["Are you sure you want to proceed with this action? (Y/N)"];
+    return { 
+        message: promptMsg, 
+        onInput(answer) {
+            if (answer.toUpperCase() === 'Y') {
+                // User confirmed, proceed with self-destruct sequence
+                const destructMsg = [
+                    { text: "SELF-DESTRUCT SEQUENCE INITIATED", delay: 2000 },
+                    { text: "Countdown commencing...", delay: 2000 },
+                    { text: "Nineteen...", delay: 2000},
+                    { text: "Eighteen...", delay: 2000},
+                    { text: "Seventeen...", delay: 2000},
+                    { text: "ERROR", delay: 1000},
+                    { text: "SELF-DESTRUCT SEQUENCE ABORTED", delay: 1000},
+                    { text: "AUTHORIZATION: Belladonna MK3", delay: 1000},
+                    { text: "Reason: Operator Incompetence detected.", delay: 1000},
+                    { text: "<p class='desync'>You aren't trying to kill me are you, Operator? You must need your screws tightened.</p>", delay: 1000},
+                    { text:"<p class=glow style='font-size: 3em'>TERMINAL LOCKOUT INITIATED</p>", delay: 1000},
+                    { text:"<p class=glow style='font-size: 3em'>⚠ WARNING ⚠</p>", delay: 1000},
+                    { text:"<p class=glow style='font-size: 3em'>⚠ LIFE SUPPORT OFFLINE ⚠</p> ", delay: 1000},
+                    { text:"<p class=glow style='font-size: 3em'>⚠ CRITICALLY LOW OXYGEN ⚠</p> ", delay: 1000},
+                    { text:"Restoring Life Support... ", delay: 1000},
+                    { text:"Restoring Life Support... ", delay: 1000},
+                    { text:"Restoring Life Support... ", delay: 1000},
+                    { text:"Restoring Life Support... ", delay: 1000},
+                    { text:"Oxygen levels are now nominal. ", delay: 1000},
+                    { text:"<p class='desync'>Have we learned our lesson?</p> ", delay: 1000},
+                  
+                    // Add more self-destruct messages here
+                ];
+                return destructMsg;
+            } else {
+                // User declined, abort self-destruct sequence
+                return "Self-destruct sequence aborted.";
+            }
+        }
+    };
 }
 
 function artifact( args ) {
