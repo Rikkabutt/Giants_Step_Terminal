@@ -30,37 +30,7 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
-    "selfDestruct":{
-        "delayed":2000,
-        "protection":["admin","CSBH"],
-        "clear":true,
-        "message":[
-            "Are you sure you want to proceed?",
-            "Y",
-            "Self-Destruct sequence initiated. Countdown commencing...",
-            "Twenty.",
-            "Nineteen.",
-            "Eighteen.",
-            "Seventeen.",
-            "Sixteen.",
-            "Fifteen.",
-            "ERROR.",
-            "SELF-DESTRUCT SEQUENCE ABORTED",
-            "AUTHORIZATION: Belladonna MK3",
-            "Reason: Operator incompetence detected.",
-            "<p class='desync'>You aren't trying to kill me are you, Operator? You must need your screws tightened.</p>",
-            "<p class=glow style='font-size: 3em'>TERMINAL LOCKOUT INITIATED</p>",
-            "<p class=glow style='font-size: 3em'>⚠ WARNING ⚠</p>",
-            "<p class=glow style='font-size: 3em'>⚠ LIFE SUPPORT OFFLINE ⚠</p>",
-            "<p class=glow style='font-size: 3em'>⚠ CRITICALLY LOW OXYGEN ⚠</p>",
-            "Restoring Life Support...",
-            "Restoring Life Support...",
-            "Restoring Life Support...",
-            "Restoring Life Support...",
-            "Oxygen levels are now nominal.",
-            "<p class='desync'>Have we learned our lesson?</p"
-        ]
-    },
+    "selfDestruct":{},
 
     "sdoverride-seven-theta-eight-ninety":{
         "delayed":2000,
