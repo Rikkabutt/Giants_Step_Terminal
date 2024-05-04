@@ -201,6 +201,7 @@
         "clear": true,
         "delayed": 2000,
         "message": [
+            "Running system diagnostic...",
             "Ship Name: Giant's Step",
             "Date: 03/09/8445",
             "Manufacturer: A-Tech",
