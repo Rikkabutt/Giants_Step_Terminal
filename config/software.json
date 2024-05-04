@@ -62,37 +62,116 @@
         ]
     },
 
-    "sdoverride-seven-theta-eight-ninety":{
-        "delayed":2000,
-        "secretCommand":true,
-        "clear":true,
-        "message":[
-            "<p class=glow style='font-size: 3em'>SHIP-WIDE TERMINAL LOCKOUT INITIATED</p>",
-            "<p class=glow style='font-size: 3em'>⚠SELF-DESTRUCT SEQUENCE OVERRIDE INITIATED ⚠</p>",
-            "<p class=glow style='font-size: 3em'>ARTIFICIAL INTELLIGENCE LOCKOUT INITIATED</p>",
-            "<p class=glow style='font-size: 3em'>TWENTY</p>",
-            "<p class=glow style='font-size: 3em'>NINETEEN</p>",
-            "<p class=glow style='font-size: 3em'>EIGHTEEN</p>",
-            "<p class=glow style='font-size: 3em'>SEVENTEEN</p>",
-            "<p class=glow style='font-size: 3em'>SIXTEEN</p>",
-            "<p class=glow style='font-size: 3em'>FIFTEEN</p>",
-            "<p class=glow style='font-size: 3em'>FOURTEEN</p>",
-            "<p class=glow style='font-size: 3em'>THIRTEEN</p>",
-            "<p class=glow style='font-size: 3em'>TWELVE</p>",
-            "<p class=glow style='font-size: 3em'>ELEVEN</p>",
-            "<p class=glow style='font-size: 3em'>TEN</p>",
-            "<p class=glow style='font-size: 3em'>NINE</p>",
-            "<p class=glow style='font-size: 3em'>EIGHT</p>",
-            "<p class='desync'>Will it hurt, when I die?</p",
-            "<p class=glow style='font-size: 3em'>SEVEN</p>",
-            "<p class=glow style='font-size: 3em'>SIX</p>",
-            "<p class=glow style='font-size: 3em'>FIVE</p>",
-            "<p class=glow style='font-size: 3em'>FOUR</p>",
-            "<p class='desync'>I don't want it to.</p>",
-            "<p class=glow style='font-size: 3em'>THREE</p>",
-            "<p class=glow style='font-size: 3em'>TWO</p>",
-            "<p class=glow style='font-size: 3em'>ONE</p>",
-            "<p class='desync'>Goodnight, Operator.</p"
+    "sdoverride-seven-theta-eight-ninety": {
+        "delayed": 2000,
+        "secretCommand": true,
+        "clear": true,
+        "message": [
+            {
+                "text": "<p class=glow style='font-size: 3em'>SHIP-WIDE TERMINAL LOCKOUT INITIATED<\/p>"
+            },
+            {
+                "text": "<p class=glow style='font-size: 3em'>⚠ SELF-DESTRUCT SEQUENCE OVERRIDE INITIATED ⚠<\/p>"
+            },
+            {
+                "text": "<p class=glow style='font-size: 3em'>ARTIFICIAL INTELLIGENCE LOCKOUT INITIATED<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>TWENTY..<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>NINETEEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>EIGHTEEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>SEVENTEEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>SIXTEEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>FIFTEEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>FOURTEEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>THIRTEEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>TWELVE...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>ELEVEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>TEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>NINE...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>EIGHT...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=desync>Will it hurt...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>SEVEN...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>SIX...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=desync>..When I die?<\/p>",
+                "delay": 1000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>FIVE...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>FOUR...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=desync>I don't want it to.<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>THREE...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>FOUR...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=shimmer style='font-size: 3em'>ONE...<\/p>",
+                "delay": 2000
+            },
+            {
+                "text": "<p class=Gooodbye, Operator.<\/p>"
+            }
         ]
     },
 
