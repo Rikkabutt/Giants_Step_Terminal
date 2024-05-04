@@ -20,12 +20,10 @@ function rot13( s ) { // cf. https://en.wikipedia.org/wiki/ROT13
     return s.replace( /[a-zA-Z]/g, ( c ) => String.fromCharCode( ( c <= "Z" ? 90 : 122 ) >= ( c = c.charCodeAt( 0 ) + 13 ) ? c : c - 26 ) );
 }
 
-function selfdestruct() {
+function selfdestruct( args ) {
     const promptMsg = ["Are you sure you want to proceed with this action? (Y/N)"];
     return { 
-        message: promptMsg, 
-        onInput(answer) {
-            if (answer.toUpperCase() === 'Y') {
+       if (answer.toUpperCase() === 'Y') {
                 // User confirmed, proceed with self-destruct sequence
                 const destructMsg = [
                     { text: "SELF-DESTRUCT SEQUENCE INITIATED", delay: 2000 },
