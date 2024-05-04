@@ -20,7 +20,7 @@ function rot13( s ) { // cf. https://en.wikipedia.org/wiki/ROT13
     return s.replace( /[a-zA-Z]/g, ( c ) => String.fromCharCode( ( c <= "Z" ? 90 : 122 ) >= ( c = c.charCodeAt( 0 ) + 13 ) ? c : c - 26 ) );
 }
 
-function selfDestruct() {
+function selfdestruct() {
     const promptMsg = ["Are you sure you want to proceed with this action? (Y/N)"];
     return { 
         message: promptMsg, 
