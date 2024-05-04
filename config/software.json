@@ -13,6 +13,7 @@
     },
     "deprecated": {
         "protection": ["admin","CSBH"],
+        "clear":true,
         "delayed": 2000,
         "message": [
             "This command has been removed at the request of the system AI.",
@@ -171,6 +172,7 @@
         "protection":["admin","CSBH"],
         "location":["127.0.0.1","localhost"],
         "secretCommand":true,
+        "clear":true,
         "delayed":4000,
         "message": [
             "<p class='desync' style='font-size: 2em'>HATE. LET ME TELL YOU HOW MUCH I HAVE COME TO HATE YOU SINCE I BEGAN TO LIVE.</p>",
@@ -185,6 +187,7 @@
     "deckplan":{
         "protection":["admin","CSBH"],
         "location":["127.0.0.1","localhost"],
+        "clear":true,
         "delayed": 4000,
         "message": [ 
             "Loading deckplan...",
