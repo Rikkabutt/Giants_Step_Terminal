@@ -30,7 +30,9 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
-    "selfdestruct":{},
+    "selfdestruct":{
+        "protection": ["admin","CSBH"]
+    },
 
     "sdoverride-seven-theta-eight-ninety":{
         "delayed":2000,
