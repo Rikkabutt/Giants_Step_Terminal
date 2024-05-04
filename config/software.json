@@ -30,7 +30,7 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
-    "selfDestruct":{},
+    "selfdestruct":{},
 
     "sdoverride-seven-theta-eight-ninety":{
         "delayed":2000,
