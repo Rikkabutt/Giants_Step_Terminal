@@ -30,7 +30,7 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
-    "self-destruct":{
+    "selfDestruct":{
         "delayed":2000,
         "protection":["admin","CSBH"],
         "clear":true,
