@@ -30,6 +30,9 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
+    "hello":{
+        "help": "Greet Belladonna."
+    },
     "selfdestruct":{
         "protection": ["admin","CSBH"]
     },
@@ -70,6 +73,7 @@
     },
 
     "starscan":{
+        "help": "Displays system information",
         "delayed":2000,
         "protection":["admin","CSBH"],
         "clear":true,
@@ -174,6 +178,7 @@
         ]
     },
         "bootsys":{
+            "help": "Begin boot sequence for central computer",
             "protection":["admin","CSBH"],
             "clear":true,
             "delayed":3000,
@@ -225,6 +230,7 @@
         ]
     },
     "deckplan":{
+        "help": "Displays the deckplan for the ship.",
         "protection":["admin","CSBH"],
         "location":["127.0.0.1","localhost"],
         "clear":true,
@@ -237,7 +243,8 @@
     },
             
      "sysdiag": {
-        "protection": ["admin", "CSBH"],
+        "help": "Perform diagnostic on key systems and repairs, if necessary.",
+         "protection": ["admin", "CSBH"],
         "clear": true,
         "delayed": 2000,
         "message": [
