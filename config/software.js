@@ -21,9 +21,10 @@ function rot13( s ) { // cf. https://en.wikipedia.org/wiki/ROT13
 }
 
 function hello(args) {
- const userName = args[0] || 'stranger';
- return 'Hello, ${ userName }!`;
+    const userName = args[0] || 'stranger';
+    return `<p class='desync'>Good to see you ${ userName }!</p>`;
 }
+
 
 function artifact( args ) {
     if ( args.length === 0 ) {
